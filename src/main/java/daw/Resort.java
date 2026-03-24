@@ -45,7 +45,7 @@ public class Resort {
 
     }
 
-    public static Map<String, Double> gastoPorCliente() {
+    public static Map<String, Double> gastoPorCliente(Hotel hotel) {
         Map<String, Double> listaGastoClientes = new HashMap<>();
         
         for(Cliente cli : cliente.getGastoAcumulado()){

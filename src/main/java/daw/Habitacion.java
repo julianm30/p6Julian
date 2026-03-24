@@ -3,6 +3,7 @@ package daw;
 
 //Se me olvido ponerle abstract Y FALTA el implements en vez de extends
 public abstract class Habitacion implements Comparable <Habitacion> {
+
     private int numero;
     private int capacidad;
     private Estado estado;

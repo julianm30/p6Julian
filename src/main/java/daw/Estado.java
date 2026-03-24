@@ -2,8 +2,7 @@
 package daw;
 
 public enum Estado {
-    
-        
+
         Reservada(), Libre(), Mantenimiento();
 
         public static Estado getReservada() {
@@ -17,6 +16,4 @@ public enum Estado {
         public static Estado getMantenimiento() {
             return Mantenimiento;
         }
-        
-    
 }

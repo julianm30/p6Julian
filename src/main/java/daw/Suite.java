@@ -23,11 +23,16 @@ public final class Suite extends Habitacion implements Reservable, Contratable{
         this.precio = precio;
     }
 
+    public void setEstado(){
+        this.getEstado(Estado.Libre);
+
+    }
     //Constructor
        public Suite(int numero, int capacidad, boolean jacuzzi, double precio) {
         super(numero, capacidad);
         this.jacuzzi = jacuzzi;
         this.precio = precio;
+        this.setEstado(Estado.Libre);
     }
 
     //toString

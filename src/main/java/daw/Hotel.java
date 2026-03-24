@@ -7,7 +7,7 @@ public class Hotel {
 private String cif;
 private String nombre;
 //Añado las listas Set
-private Set<Cliente> clientes;
+    private Set<Cliente> clientes;
     private Set<Habitacion> habitaciones;
 
 //Getters y setters
